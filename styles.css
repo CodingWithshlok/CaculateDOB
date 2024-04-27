@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.background {
+  background-image: url("sparking.avif");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+
+/* text-align: center; */
+  background-repeat: no-repeat;
+}
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.container h1 {
+  font-size: 4rem;
+}
+
+.settings {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.settings .fa-cog {
+  font-size: 3rem;
+  color: rgb(233, 120, 8);
+}
+.settings-content {
+  display: flex;
+  gap: 1rem;
+}
+.settings-content input {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+.settings-content button {
+  padding: 0.5rem 1rem;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: rgb(80, 2, 2);
+}
+.hide {
+  display: none;
+}
+/* These is creat year,month to center */
+.time-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.time-container h2 {
+  line-height: 60px;
+  text-align: center;
+  font-size: 3rem;
+}
+.time-container div {
+  font-size: 4rem;
+  color: rgb(225, 255, 0);
+}
+.shlok{
+  height:2px;
+  width:2px;
+  size:3px;
+  padding:0;
+  font-size:2rem;
+  margin-top: 2rem;
+  position:absolute;
+}
+h1{
+  color:rgb(155, 36, 3);
+}
+h2{
+  color:rgb(255, 255, 255);
+}
+.iconimage{
+  position:absolute;
+  top:60%;
+  color:rgb(46, 146, 10);
+   font-size:5rem;
+   padding: 1rem 1rem 5rem;
+  height:4px;
+  width:5px;
+  left:90%;
+  align-items:right;
+  justify-content: center;
+  margin:10px;
+  bottom: 40px;
+}
